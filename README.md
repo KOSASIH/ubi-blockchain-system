@@ -7,6 +7,21 @@
 [![Certified Blockchain Architect](https://img.shields.io/badge/Blockchain%20Council-Certified%20Blockchain%20Architect-FF9800?style=for-the-badge)](https://www.blockchain-council.org/)
 [![Certified Solidity Developer](https://img.shields.io/badge/Solidity-Certified%20Developer-4B0082?style=for-the-badge)](https://soliditylang.org/)
 [![Certified Corda Developer](https://img.shields.io/badge/R3-Certified%20Corda%20Developer-00A3E0?style=for-the-badge)](https://www.r3.com/)
+[![Certified Blockchain Expert](https://img.shields.io/badge/Blockchain%20Council-Certified%20Blockchain%20Expert-FF9800?style=for-the-badge)](https://www.blockchain-council.org/)
+[![Certified DeFi Expert](https://img.shields.io/badge/Blockchain%20Council-Certified%20DeFi%20Expert-FF9800?style=for-the-badge)](https://www.blockchain-council.org/)
+[![Certified NFT Expert](https://img.shields.io/badge/Blockchain%20Council-Certified%20NFT%20Expert-FF9800?style=for-the-badge)](https://www.blockchain-council.org/)
+[![Certified Blockchain Developer](https://img.shields.io/badge/Blockchain%20Council-Certified%20Blockchain%20Developer-FF9800?style=for-the-badge)](https://www.blockchain-council.org/)
+[![Certified Ethereum Smart Contract Developer](https://img.shields.io/badge/Ethereum-Certified%20Smart%20Contract%20Developer-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)](https://ethereum.org/en/developers/)
+[![Certified Blockchain Solutions Architect](https://img.shields.io/badge/Blockchain%20Council-Certified%20Blockchain%20Solutions%20Architect-FF9800?style=for-the-badge)](https://www.blockchain-council.org/)
+[![Certified Ripple Developer](https://img.shields.io/badge/Ripple-Certified%20Developer-00A3E0?style=for-the-badge)](https://ripple.com/)
+[![Certified Tezos Developer](https://img.shields.io/badge/Tezos-Certified%20Developer-00A3E0?style=for-the-badge)](https://tezos.com/)
+[![Certified Blockchain Project Manager](https://img.shields.io/badge/Blockchain%20Council-Certified%20Blockchain%20Project%20Manager-FF9800?style=for-the-badge)](https://www.blockchain-council.org/)
+[![Certified Cardano Developer](https://img.shields.io/badge/Cardano-Certified%20Developer-3CCBDA?style=for-the-badge)](https://cardano.org/)
+[![Certified Blockchain Security Professional](https://img.shields.io/badge/Blockchain%20Council-Certified%20Blockchain%20Security%20Professional-FF9800?style=for-the-badge)](https://www.blockchain-council.org/)
+[![Certified Blockchain Data Scientist](https://img.shields.io/badge/Blockchain%20Council-Certified%20Blockchain%20Data%20Scientist-FF9800?style=for-the-badge)](https://www.blockchain-council.org/)
+[![Certified Smart Contract Auditor](https://img.shields.io/badge/Blockchain%20Council-Certified%20Smart%20Contract%20Auditor-FF9800?style=for-the-badge)](https://www.blockchain-council.org/)
+[![Certified Blockchain Trainer](https://img.shields.io/badge/Blockchain%20Council-Certified%20Blockchain%20Trainer-FF9800?style=for-the-badge)](https://www.blockchain-council.org/)
+[![Certified DApp Developer](https://img.shields.io/badge/Blockchain%20Council-Certified%20DApp%20Developer-FF9800?style=for-the-badge)](https://www.blockchain-council.org/)
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/ubi-blockchain-system">UBI Blockchain System</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
