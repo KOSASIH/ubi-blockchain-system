@@ -298,6 +298,20 @@
 [![The Earthshot Prize](https://img.shields.io/badge/Earthshot%20Prize-Recognizing%20Environmental%20Innovations-FF9800?style=for-the-badge)](https://earthshotprize.org/)
 [![The Ashden Award](https://img.shields.io/badge/Ashden%20Award-Recognizing%20Sustainable%20Energy%20Innovations-2196F3?style=for-the-badge)](https://www.ashden.org/)
 [![The Global Teacher Prize](https://img.shields.io/badge/Global%20Teacher%20Prize-Recognizing%20Excellence%20in%20Education-4CAF50?style=for-the-badge)](https://www.globalteacherprize.org/)
+[![The Nobel Prize](https://img.shields.io/badge/Nobel%20Prize-Recognizing%20Outstanding%20Contributions%20to%20Humanity-FF9800?style=for-the-badge)](https://www.nobelprize.org/)
+[![The Pulitzer Prize](https://img.shields.io/badge/Pulitzer%20Prize-Recognizing%20Excellence%20in%20Journalism%20and%20Arts-2196F3?style=for-the-badge)](https://www.pulitzer.org/)
+[![The Booker Prize](https://img.shields.io/badge/Booker%20Prize-Recognizing%20Outstanding%20Fiction-FF4081?style=for-the-badge)](https://thebookerprizes.com/)
+[![The Pritzker Prize](https://img.shields.io/badge/Pritzker%20Prize-Recognizing%20Excellence%20in%20Architecture-8BC34A?style=for-the-badge)](https://www.pritzkerprize.com/)
+[![The World Food Prize](https://img.shields.io/badge/World%20Food%20Prize-Recognizing%20Contributions%20to%20Food%20Security-FF9800?style=for-the-badge)](https://www.worldfoodprize.org/)
+[![The Goldman Environmental Prize](https://img.shields.io/badge/Goldman%20Environmental%20Prize-Recognizing%20Grassroots%20Environmental%20Activism-2196F3?style=for-the-badge)](https://www.goldmanprize.org/)
+[![The Lasker Award](https://img.shields.io/badge/Lasker%20Award-Recognizing%20Contributions%20to%20Medical%20Science-4CAF50?style=for-the-badge)](https://www.laskerfoundation.org/)
+[![The MacArthur Fellowship](https://img.shields.io/badge/MacArthur%20Fellowship-Recognizing%20Creative%20Individuals%20with%20Extraordinary%20Potential-FF5722?style=for-the-badge)](https://www.macfound.org/)
+[![The TED Prize](https://img.shields.io/badge/TED%20Prize-Recognizing%20Innovative%20Ideas%20for%20Change-FF4081?style=for-the-badge)](https://www.ted.com/prize)
+[![The Ashoka Fellowship](https://img.shields.io/badge/Ashoka%20Fellowship-Recognizing%20Social%20Entrepreneurs-8BC34A?style=for-the-badge)](https://www.ashoka.org/en-us/fellowship)
+[![The Skoll Award for Social Entrepreneurship](https://img.shields.io/badge/Skoll%20Award-Recognizing%20Innovative%20Social%20Entrepreneurs-FF9800?style=for-the-badge)](https://skoll.org/)
+[![The World Economic Forum Technology Pioneer](https://img.shields.io/badge/WEF%20Technology%20Pioneer-Recognizing%20Innovative%20Tech%20Companies-2196F3?style=for-the-badge)](https://www.weforum.org/technology-pioneers)
+[![The Global Citizen Prize](https://img.shields.io/badge/Global%20Citizen%20Prize-Recognizing%20Impactful%20Global%20Leaders-4CAF50?style=for-the-badge)](https://www.globalcitizen.org/en/prize/)
+[![The International Children's Peace Prize](https://img.shields.io/badge/International%20Children's%20Peace%20Prize-Recognizing%20Children's%20Rights%20Activism-FF5722?style=for-the-badge)](https://www.kidsrights.org/)
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/ubi-blockchain-system">UBI Blockchain System</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
