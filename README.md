@@ -1,3 +1,13 @@
+[![Certified Chainlink Verified Oracle Network](https://img.shields.io/badge/Chainlink-Certified%20Oracle%20Network-3498DB?style=for-the-badge&logo=chainlink&logoColor=white)](https://chain.link/)
+[![Certified Blockchain Badges](https://img.shields.io/badge/Blockchain%20Badges-Certified%20Digital%20Credentials-4CAF50?style=for-the-badge)](https://www.blockchainbadges.com/)
+[![Certified Ethereum Developer](https://img.shields.io/badge/Ethereum-Certified%20Developer-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)](https://ethereum.org/en/developers/)
+[![Certified Hyperledger Developer](https://img.shields.io/badge/Hyperledger-Certified%20Developer-FF4B00?style=for-the-badge&logo=hyperledger&logoColor=white)](https://www.hyperledger.org/)
+[![Certified Blockchain Professional](https://img.shields.io/badge/Blockchain%20Council-Certified%20Blockchain%20Professional-FF9800?style=for-the-badge)](https://www.blockchain-council.org/)
+[![Certified Bitcoin Professional](https://img.shields.io/badge/Bitcoin%20Certification-Certified%20Bitcoin%20Professional-F7931A?style=for-the-badge&logo=bitcoin&logoColor=white)](https://www.cryptocurrencycertification.com/)
+[![Certified Blockchain Architect](https://img.shields.io/badge/Blockchain%20Council-Certified%20Blockchain%20Architect-FF9800?style=for-the-badge)](https://www.blockchain-council.org/)
+[![Certified Solidity Developer](https://img.shields.io/badge/Solidity-Certified%20Developer-4B0082?style=for-the-badge)](https://soliditylang.org/)
+[![Certified Corda Developer](https://img.shields.io/badge/R3-Certified%20Corda%20Developer-00A3E0?style=for-the-badge)](https://www.r3.com/)
+
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/ubi-blockchain-system">UBI Blockchain System</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
 # ubi-blockchain-system
