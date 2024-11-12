@@ -283,6 +283,22 @@
 [![Certified Data Professional](https://img.shields.io/badge/CDP-Certified%20Data%20Professional-2196F3?style=for-the-badge)](https://www.dama.org/certification/certified-data-professional)
 [![Certified Supply Chain Professional](https://img.shields.io/badge/CSCP-Certified%20Supply%20Chain%20Professional-4CAF50?style=for-the-badge)](https://www.apics.org/credentials-education/certifications/cscp)
 
+[![UNESCO World Heritage Site](https://img.shields.io/badge/UNESCO%20World%20Heritage%20Site-Recognized%20Cultural%20Heritage-FF9800?style=for-the-badge)](https://whc.unesco.org/)
+[![Green Globe Certified](https://img.shields.io/badge/Green%20Globe-Certified%20Sustainable%20Tourism-2196F3?style=for-the-badge)](https://greenglobe.com/)
+[![LEED Certified](https://img.shields.io/badge/LEED-Certified%20Green%20Building-4CAF50?style=for-the-badge)](https://www.usgbc.org/leed)
+[![B Corporation Certified](https://img.shields.io/badge/B%20Corp-Certified%20Benefit%20Corporation-FF5722?style=for-the-badge)](https://bcorporation.net/)
+[![ISO 50001 Energy Management](https://img.shields.io/badge/ISO%2050001-Energy%20Management%20Excellence-FF4081?style=for-the-badge)](https://www.iso.org/iso-50001-energy-management.html)
+[![FSC Certified](https://img.shields.io/badge/FSC-Certified%20Sustainable%20Forestry-8BC34A?style=for-the-badge)](https://www.fsc.org/)
+[![Fair Trade Certified](https://img.shields.io/badge/Fair%20Trade-Certified%20Ethical%20Products-FF9800?style=for-the-badge)](https://www.fairtrade.net/)
+[![ISO 14001 Environmental Management](https://img.shields.io/badge/ISO%2014001-Environmental%20Management%20Excellence-2196F3?style=for-the-badge)](https://www.iso.org/iso-14001-environmental-management.html)
+[![Sustainable Development Goals (SDG) Pioneer](https://img.shields.io/badge/SDG%20Pioneer-Recognized%20Sustainability%20Leader-4CAF50?style=for-the-badge)](https://www.un.org/sustainabledevelopment/sustainable-development-goals/)
+[![World Wildlife Fund (WWF) Certified](https://img.shields.io/badge/WWF-Certified%20Sustainable%20Products-FF5722?style=for-the-badge)](https://www.worldwildlife.org/)
+[![ISO 9001 Quality Management](https://img.shields.io/badge/ISO%209001-Quality%20Management%20Excellence-FF4081?style=for-the-badge)](https://www.iso.org/iso-9001-quality-management.html)
+[![The Global Goals Award](https://img.shields.io/badge/Global%20Goals%20Award-Recognized%20for%20Sustainable%20Development-8BC34A?style=for-the-badge)](https://www.globalgoals.org/)
+[![The Earthshot Prize](https://img.shields.io/badge/Earthshot%20Prize-Recognizing%20Environmental%20Innovations-FF9800?style=for-the-badge)](https://earthshotprize.org/)
+[![The Ashden Award](https://img.shields.io/badge/Ashden%20Award-Recognizing%20Sustainable%20Energy%20Innovations-2196F3?style=for-the-badge)](https://www.ashden.org/)
+[![The Global Teacher Prize](https://img.shields.io/badge/Global%20Teacher%20Prize-Recognizing%20Excellence%20in%20Education-4CAF50?style=for-the-badge)](https://www.globalteacherprize.org/)
+
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/ubi-blockchain-system">UBI Blockchain System</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
 # ubi-blockchain-system
