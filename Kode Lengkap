@@ -1,0 +1,183 @@
+require('dotenv').config();
+const express = require('express');
+const mongoose = require('mongoose');
+const jwt = require('jsonwebtoken');
+const bcrypt = require('bcrypt');
+const speakeasy = require('speakeasy');
+const nodemailer = require('nodemailer');
+const { ethers } = require('ethers');
+const Joi = require('joi');
+
+const app = express();
+
+// Middleware
+app.use(express.json());
+
+// Database Connection
+mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(() => console.log('Database connected'))
+  .catch(err => console.error('Database connection error:', err));
+
+// User Schema
+const userSchema = new mongoose.Schema({
+  name: { type: String, required: true },
+  email: { type: String, required: true, unique: true },
+  password: { type: String, required: true },
+});
+
+// Hash password before saving user
+userSchema.pre('save', async function (next) {
+  if (!this.isModified('password')) return next();
+  this.password = await bcrypt.hash(this.password, 10);
+  next();
+});
+
+// Compare passwords
+userSchema.methods.comparePassword = function (candidatePassword) {
+  return bcrypt.compare(candidatePassword, this.password);
+};
+
+const User = mongoose.model('User', userSchema);
+
+// Blockchain Configuration
+const provider = new ethers.JsonRpcProvider(process.env.ETH_RPC_URL);
+const wallet = new ethers.Wallet(process.env.PRIVATE_KEY, provider);
+
+// Temporary storage for OTP
+const otpStorage = new Map();
+
+// Email Service
+const transporter = nodemailer.createTransport({
+  service: 'gmail',
+  auth: {
+    user: process.env.EMAIL_USER,
+    pass: process.env.EMAIL_PASS,
+  },
+});
+
+// Validation Schemas
+const registerSchema = Joi.object({
+  name: Joi.string().min(3).required(),
+  email: Joi.string().email().required(),
+  password: Joi.string().min(6).required(),
+});
+
+const loginSchema = Joi.object({
+  email: Joi.string().email().required(),
+  password: Joi.string().required(),
+});
+
+const otpSchema = Joi.object({
+  email: Joi.string().email().required(),
+  otp: Joi.string().required(),
+});
+
+// Controllers
+app.post('/register', async (req, res) => {
+  try {
+    const { error } = registerSchema.validate(req.body);
+    if (error) return res.status(400).json({ message: error.details[0].message });
+
+    const { name, email, password } = req.body;
+
+    const existingUser = await User.findOne({ email });
+    if (existingUser) return res.status(400).json({ message: 'Email sudah digunakan.' });
+
+    const newUser = new User({ name, email, password });
+    await newUser.save();
+
+    // Record registration to blockchain
+    const message = `Registrasi oleh ${email} pada ${new Date().toISOString()}`;
+    const tx = await wallet.sendTransaction({
+      to: process.env.BLOCKCHAIN_RECIPIENT,
+      data: ethers.encodeUtf8Bytes(message),
+    });
+
+    res.status(201).json({
+      message: 'Registrasi berhasil.',
+      blockchainTransaction: tx.hash,
+    });
+  } catch (error) {
+    res.status(500).json({ message: 'Server error.', error: error.message });
+  }
+});
+
+app.post('/login', async (req, res) => {
+  try {
+    const { error } = loginSchema.validate(req.body);
+    if (error) return res.status(400).json({ message: error.details[0].message });
+
+    const { email, password } = req.body;
+    const user = await User.findOne({ email });
+    if (!user || !(await user.comparePassword(password))) {
+      return res.status(401).json({ message: 'Email atau password salah.' });
+    }
+
+    // Generate JWT
+    const token = jwt.sign({ id: user._id, email: user.email }, process.env.JWT_SECRET, { expiresIn: process.env.JWT_EXPIRES_IN });
+    res.status(200).json({ message: 'Login berhasil.', token });
+  } catch (error) {
+    res.status(500).json({ message: 'Server error.', error: error.message });
+  }
+});
+
+app.post('/2fa/initiate', async (req, res) => {
+  try {
+    const { email } = req.body;
+    if (!email) return res.status(400).json({ message: 'Email wajib diisi.' });
+
+    const otp = speakeasy.totp({
+      secret: process.env.OTP_SECRET || 'superotpsecret',
+      encoding: 'base32',
+    });
+
+    otpStorage.set(email, otp);
+
+    await transporter.sendMail({
+      from: process.env.EMAIL_USER,
+      to: email,
+      subject: 'Kode OTP Anda',
+      text: `Kode OTP Anda adalah: ${otp}. Kode ini berlaku selama 5 menit.`,
+    });
+
+    res.status(200).json({ message: 'Kode OTP telah dikirim ke email Anda.' });
+  } catch (error) {
+    res.status(500).json({ message: 'Gagal mengirim OTP.', error: error.message });
+  }
+});
+
+app.post('/2fa/verify', async (req, res) => {
+  try {
+    const { error } = otpSchema.validate(req.body);
+    if (error) return res.status(400).json({ message: error.details[0].message });
+
+    const { email, otp } = req.body;
+    const storedOtp = otpStorage.get(email);
+    if (!storedOtp || storedOtp !== otp) {
+      return res.status(400).json({ message: 'Kode OTP tidak valid atau telah kedaluwarsa.' });
+    }
+
+    otpStorage.delete(email);
+    res.status(200).json({ message: '2FA berhasil diverifikasi.' });
+  } catch (error) {
+    res.status(500).json({ message: 'Server error.', error: error.message });
+  }
+});
+
+app.post('/blockchain/validate', async (req, res) => {
+  try {
+    const { txHash } = req.body;
+    if (!txHash) return res.status(400).json({ message: 'Hash transaksi wajib diisi.' });
+
+    const receipt = await provider.getTransactionReceipt(txHash);
+    if (!receipt) return res.status(404).json({ message: 'Transaksi tidak ditemukan di blockchain.' });
+
+    res.status(200).json({ message: 'Transaksi valid.', transaction: receipt });
+  } catch (error) {
+    res.status(500).json({ message: 'Gagal memvalidasi transaksi.', error: error.message });
+  }
+});
+
+// Start Server
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
