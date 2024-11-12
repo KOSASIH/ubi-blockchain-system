@@ -1,0 +1,57 @@
+// Variables for theming
+$primary-color: #4CAF50;
+$secondary-color: #FF5722;
+$text-color: #333;
+$background-color: #f4f4f4;
+$font-family: 'Roboto', sans-serif;
+
+// Mixins for responsive design
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == mobile {
+    @media (max-width: 768px) { @content; }
+  }
+  @else if $breakpoint == tablet {
+    @media (max-width: 1024px) { @content; }
+  }
+}
+
+// Global styles
+body {
+  font-family: $font-family;
+  background-color: $background-color;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: $primary-color;
+  padding: 20px;
+  text-align: center;
+  color: white;
+
+  h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+
+  @include respond-to(mobile) {
+    padding: 10px;
+  }
+}
+
+.footer {
+  background-color: $secondary-color;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
