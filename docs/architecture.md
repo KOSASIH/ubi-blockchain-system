@@ -3,6 +3,10 @@
 ## Introduction
 The Universal Basic Income (UBI) Blockchain System is designed to provide a decentralized platform for implementing a universal basic income model. This document outlines the architecture of the system, including its components, interactions, and technologies used.
 
+## UBI Blockchain System Diagram 
+
+![UBI Blockchain System Diagram](UBI-blockchain-system.jpeg) 
+
 ## Architecture Components
 
 ### 1. Frontend
