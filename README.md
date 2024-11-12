@@ -267,6 +267,22 @@
 [![ISO 45003 Certified](https://img.shields.io/badge/ISO%2045003-Certified%20Psychological%20Health%20and%20Safety-4CAF50?style=for-the-badge)](https://www.iso.org/iso-45003-psychological-health.html)
 [![ISO 14064 Certified](https://img.shields.io/badge/ISO%2014064-Certified%20Greenhouse%20Gas%20Accounting-2196F3?style=for-the-badge)](https://www.iso.org/iso-14064-greenhouse-gas.html)
 
+[![PMI Project Management Professional](https://img.shields.io/badge/PMI%20PMP-Certified%20Project%20Management%20Professional-FF9800?style=for-the-badge)](https://www.pmi.org/certifications/project-management-pmp)
+[![CompTIA A+ Certified](https://img.shields.io/badge/CompTIA%20A%2B-Certified%20IT%20Technician-2196F3?style=for-the-badge)](https://www.comptia.org/certifications/a)
+[![CompTIA Security+ Certified](https://img.shields.io/badge/CompTIA%20Security%2B-Certified%20Cybersecurity%20Professional-4CAF50?style=for-the-badge)](https://www.comptia.org/certifications/security)
+[![Cisco Certified Network Associate](https://img.shields.io/badge/Cisco%20CCNA-Certified%20Network%20Associate-FF5722?style=for-the-badge)](https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html)
+[![AWS Certified Solutions Architect](https://img.shields.io/badge/AWS%20Certified%20Solutions%20Architect-Certified%20Cloud%20Architect-FF4081?style=for-the-badge)](https://aws.amazon.com/certification/certified-solutions-architect-associate/)
+[![Microsoft Certified: Azure Fundamentals](https://img.shields.io/badge/Microsoft%20Azure%20Fundamentals-Certified%20Cloud%20Practitioner-8BC34A?style=for-the-badge)](https://learn.microsoft.com/en-us/certifications/azure-fundamentals/)
+[![Certified Information Systems Security Professional](https://img.shields.io/badge/CISSP-Certified%20Information%20Systems%20Security%20Professional-FF9800?style=for-the-badge)](https://www.isc2.org/Certifications/CISSP)
+[![Certified Ethical Hacker](https://img.shields.io/badge/CEH-Certified%20Ethical%20Hacker-2196F3?style=for-the-badge)](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/)
+[![Lean Six Sigma Green Belt](https://img.shields.io/badge/Lean%20Six%20Sigma%20Green%20Belt-Certified%20Process%20Improvement%20Professional-4CAF50?style=for-the-badge)](https://www.sixsigmaonline.org/six-sigma-certification/green-belt-certification/)
+[![Certified ScrumMaster](https://img.shields.io/badge/CSM-Certified%20ScrumMaster-FF5722?style=for-the-badge)](https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster)
+[![Google Analytics Certified](https://img.shields.io/badge/Google%20Analytics-Certified%20Analytics%20Professional-FF4081?style=for-the-badge)](https://analytics.google.com/analytics/academy/)
+[![Certified Information Systems Auditor](https://img.shields.io/badge/CISA-Certified%20Information%20Systems%20Auditor-8BC34A?style=for-the-badge)](https://www.isaca.org/credentialing/cisa)
+[![TOGAF Certified](https://img.shields.io/badge/TOGAF-Certified%20Enterprise%20Architect-FF9800?style=for-the-badge)](https://www.opengroup.org/togaf)
+[![Certified Data Professional](https://img.shields.io/badge/CDP-Certified%20Data%20Professional-2196F3?style=for-the-badge)](https://www.dama.org/certification/certified-data-professional)
+[![Certified Supply Chain Professional](https://img.shields.io/badge/CSCP-Certified%20Supply%20Chain%20Professional-4CAF50?style=for-the-badge)](https://www.apics.org/credentials-education/certifications/cscp)
+
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/ubi-blockchain-system">UBI Blockchain System</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
 # ubi-blockchain-system
