@@ -116,8 +116,7 @@
 [![Certified Blockchain Supply Chain Analyst](https://img.shields.io/badge/Blockchain%20Council-Certified%20Supply%20Chain%20Analyst-FF9800?style=for-the-badge)](https://www.blockchain-council.org/)
 [![Certified Blockchain Digital Marketing Specialist](https://img.shields.io/badge/Blockchain%20Council-Certified%20Digital%20Marketing%20Specialist-8BC34A?style=for-the-badge)](https://www.blockchain-council.org/)
 [![Certified Blockchain Community Engagement Specialist](https://img.shields.io/badge/Blockchain%20Council-Certified%20Community%20Engagement%20Specialist-FF5722?style=for-the-badge)](https://www.blockchain-council.org/)
-
-
+[![Certified Blockchain Data Privacy Specialist](https://img.shields.io/badge/Blockchain%20Council-Certified%20Data%20Privacy%20Specialist-4CAF50?style=for-the-badge)](https://www.blockchain-council.org/)
 [![Certified Blockchain User Experience Specialist](https://img.shields.io/badge/Blockchain%20Council-Certified%20User%20Experience%20Specialist-2196F3?style=for-the-badge)](https://www.blockchain-council.org/)
 [![Certified Blockchain Digital Asset Analyst](https://img.shields.io/badge/Blockchain%20Council-Certified%20Digital%20Asset%20Analyst-FF4081?style=for-the-badge)](https://www.blockchain-council.org/)
 [![Certified Blockchain Smart Contract Developer](https://img.shields.io/badge/Blockchain%20Council-Certified%20Smart%20Contract%20Developer-FF9800?style=for-the-badge)](https://www.blockchain-council.org/)
